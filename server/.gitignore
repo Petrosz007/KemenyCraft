@@ -1,0 +1,14 @@
+# This has a mojang java server version cached
+/cache/
+
+# This has the minecraft server libraries
+/libraries/
+
+# We don't want to commit the logs into git
+/logs/
+/.console_history
+
+# We don't want to commit the world saves into git
+/world/
+/world_nether/
+/world_the_end/

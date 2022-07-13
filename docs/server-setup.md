@@ -1,5 +1,7 @@
 # Server Setup
 
+## Installing the server
+
 Install required tools
 
     sudo apt update
@@ -17,7 +19,29 @@ Install Java 17
 
 Clone this repo to the server
 
-    git clone git@github.com:Petrosz007/KemenyCraft.git
+    git clone https://github.com/Petrosz007/KemenyCraft.git
+
+Download the latest version of PaperMC from their website https://papermc.io/downloads#Paper-1.19
+
+    cd server
+    wget https://api.papermc.io/v2/projects/paper/versions/1.19/builds/60/downloads/paper-1.19-60.jar
+
+Modify `server/start.sh` so `PAPER_JAR` has the name of your Paper jar
+
+Start the server with 
+
+    ./start.sh
+    echo "eula=true" > eula.txt
+    ./start.sh
+
+## Port forwarding
+
+Log into your router and forward `25565` to your local server IP.
+
+To get your public IP:
+
+    curl ifconfig.me
+
 
 
 ## Resources
