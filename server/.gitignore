@@ -7,6 +7,7 @@
 # We don't want to commit the logs into git
 /logs/
 /.console_history
+/usercache.json
 
 # We don't want to commit the world saves into git
 /world/
