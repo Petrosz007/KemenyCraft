@@ -5,7 +5,7 @@
 Install required tools
 
     sudo apt update
-    sudo apt install curl unzip zip git
+    sudo apt install curl unzip zip git screen
     curl -s "https://get.sdkman.io" | bash
     source "$HOME/.sdkman/bin/sdkman-init.sh"
 
@@ -33,6 +33,22 @@ Start the server with
     ./start.sh
     echo "eula=true" > eula.txt
     ./start.sh
+
+## Running the server in the background - Screen
+
+To attach create the minecraft screen
+
+    screen -S "minecraft"
+
+To list available screens
+
+    screen -ls
+
+To reattach to the minecraft screen
+
+    screen -r "minecraft"
+
+To exit the screen: `Ctrl-A d` 
 
 ## Port forwarding
 
