@@ -3,8 +3,13 @@ set -e              # Will exit the script of any line fails, won't run the foll
 set -o xtrace       # Will print the commands being executed
 
 
+# Enables variable inporting
+set -o allexport
+
 MY_PATH=`dirname "$0"`
-$MY_PATH/ddns-variables.sh
+
+# Import restic variables
+source $MY_PATH/.ddns.env
 
 # Need a cloudflare token with DNS Read and Edit rights on a DNS Zone
 # Check if the token is working correctly
@@ -28,3 +33,6 @@ curl -X PUT "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$DN
      -H "Authorization: Bearer $TOKEN" \
      -H "Content-Type: application/json" \
      --data '{"type":"A","name":"'"$SUBDOMAIN"'","content":"'"$IP"'","ttl":1,"proxied":false}'
+
+# Disables variable exporting
+set +o allexport

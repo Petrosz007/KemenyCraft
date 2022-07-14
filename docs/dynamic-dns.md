@@ -8,7 +8,7 @@ Install `ddclient`
 Get your Clodflare API key from here: https://dash.cloudflare.com/profile/api-tokens
 The Zone API ID is under your domain name > overview > scroll down and on the right
 
-Edit `scripts/ddns/ddns-variables.example.sh`, fill out the variables. Rename the file to `ddns-variables.sh` (remove the `.example` from the filename)
+Edit `scripts/ddns/.ddns.example.sh`, fill out the variables. Rename the file to `.ddns.env` (remove the `.example` from the filename)
 
 Run it with:
 
