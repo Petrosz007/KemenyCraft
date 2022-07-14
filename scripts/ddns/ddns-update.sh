@@ -1,6 +1,6 @@
 #!/bin/bash
-set -e
-set -o xtrace
+set -e              # Will exit the script of any line fails, won't run the following lines
+set -o xtrace       # Will print the commands being executed
 
 
 MY_PATH=`dirname "$0"`

@@ -1,0 +1,5 @@
+# Sensitive restic variables
+/.restic.env
+
+# Logs
+/log/
