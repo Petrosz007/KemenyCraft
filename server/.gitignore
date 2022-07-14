@@ -3,11 +3,13 @@
 
 # This has the minecraft server libraries
 /libraries/
+/bundler/
 
 # We don't want to commit the logs into git
 /logs/
 /.console_history
 /usercache.json
+/crash-reports/
 
 # We don't want to commit the world saves into git
 /world/

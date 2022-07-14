@@ -21,10 +21,10 @@ Clone this repo to the server
 
     git clone https://github.com/Petrosz007/KemenyCraft.git
 
-Download the latest version of PaperMC from their website https://papermc.io/downloads#Paper-1.19
+Download the latest version of SpigotMC from their website https://getbukkit.org/download/spigot
 
     cd server
-    wget https://api.papermc.io/v2/projects/paper/versions/1.19/builds/60/downloads/paper-1.19-60.jar
+    wget https://download.getbukkit.org/spigot/spigot-1.19.jar -O spigot_1.19.jar
 
 Modify `server/start.sh` so `PAPER_JAR` has the name of your Paper jar
 
@@ -62,4 +62,4 @@ To get your public IP:
 
 ## Resources
 1. https://sdkman.io/install
-2. https://docs.papermc.io/paper/getting-started
+2. https://www.spigotmc.org/wiki/spigot-installation/
