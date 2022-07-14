@@ -15,3 +15,7 @@
 /world/
 /world_nether/
 /world_the_end/
+
+# Don't commit non-config plugin data
+/plugins/dynmap/
+/plugins/Essentials/userdata/

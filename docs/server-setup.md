@@ -58,8 +58,10 @@ To get your public IP:
 
     curl ifconfig.me
 
-
+## Spigot optimisations
+https://www.spigotmc.org/threads/guide-server-optimization⚡.283181/
 
 ## Resources
 1. https://sdkman.io/install
 2. https://www.spigotmc.org/wiki/spigot-installation/
+3. https://www.spigotmc.org/threads/guide-server-optimization⚡.283181/
