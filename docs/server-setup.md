@@ -21,10 +21,10 @@ Clone this repo to the server
 
     git clone https://github.com/Petrosz007/KemenyCraft.git
 
-Download the latest version of SpigotMC from their website https://getbukkit.org/download/spigot
+Download the latest version of PaperMC from their website https://papermc.io/downloads
 
     cd server
-    wget https://download.getbukkit.org/spigot/spigot-1.19.jar -O spigot_1.19.jar
+    wget https://api.papermc.io/v2/projects/paper/versions/1.19/builds/61/downloads/paper-1.19-61.jar
 
 Modify `server/start.sh` so `PAPER_JAR` has the name of your Paper jar
 
@@ -58,10 +58,19 @@ To get your public IP:
 
     curl ifconfig.me
 
-## Spigot optimisations
+## Server optimisations
 https://www.spigotmc.org/threads/guide-server-optimization⚡.283181/
+
+https://aikar.co/mcflags.html
+
+https://old.reddit.com/r/admincraft/comments/87i0hi/keeping_up_with_cant_keep_up_an_overloaded_guide/
+
+https://docs.papermc.io/paper/aikars-flags
 
 ## Resources
 1. https://sdkman.io/install
 2. https://www.spigotmc.org/wiki/spigot-installation/
 3. https://www.spigotmc.org/threads/guide-server-optimization⚡.283181/
+4. https://aikar.co/mcflags.html
+5. https://old.reddit.com/r/admincraft/comments/87i0hi/keeping_up_with_cant_keep_up_an_overloaded_guide/
+6. https://docs.papermc.io/paper/aikars-flags

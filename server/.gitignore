@@ -19,3 +19,4 @@
 # Don't commit non-config plugin data
 /plugins/dynmap/
 /plugins/Essentials/userdata/
+/plugins/ChangeSkin/ChangeSkin.db
